@@ -1,0 +1,248 @@
+/*Global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Navigation Bar*/
+nav {
+    background-color: #D8CCE0;
+    overflow: hidden;
+    color: #252526;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #252526;
+}
+
+nav a:hover {
+    color: #585858;
+}
+
+nav h1 {
+    float: left;
+    margin: 1.5em;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1.5em;
+    font-weight: bold;
+}
+
+/*Banner*/
+
+.banner {
+    background-color: #D8CCE0;
+    color: #252526;
+    height: 35em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bannercontainer {
+    align-self: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 4em;
+}
+
+.banner1 {
+    margin-top: 1em;
+    font-size: 4em;
+    width: 60%;
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+    align-self: flex-start;
+}
+
+.banner2 {
+    margin-top: 1em;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    width: 40%;
+    align-self: flex-start;
+}
+
+/*About*/
+
+.aboutdiv {
+    background-color: #C0B5C7;
+    color: #252526;
+    height: 30em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3em;
+}
+
+.aboutdiv:hover {
+    background-color: #B1A7B8;
+}
+
+.aboutdiv1 {
+    letter-spacing: 0.3em;
+}
+
+.aboutdiv2 {
+    padding: 1.5em;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.aboutpic {
+    order: 2;
+}
+
+.aboutdiv3 {
+    order: 1;
+    align-self: center;
+    text-align: right;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    padding-right: 1.5em;
+}
+
+.projectsdiv {
+    background-color: #C0B5C7;
+    color: #252526;
+    height: 27em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3em;
+}
+
+.projectsdiv:hover {
+    background-color: #B1A7B8;
+}
+
+.projectsdiv1   {
+    letter-spacing: 0.3em;
+}
+
+.projectsdiv2 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.project1header {
+    order: 2;
+}
+
+.project1header h3 {
+    letter-spacing: 0.07em;
+    padding: 1em 0.5em 1em 0;
+}
+
+.project1header li{
+    list-style-type: none;
+    letter-spacing: 0.05em;
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: justify;
+}
+
+.project2header {
+    order: 1;
+    flex-shrink: 1.5;
+}
+
+.project2header h3 {
+    letter-spacing: 0.07em;
+    padding: 1em 0.5em 2.2em 0;
+}
+
+.project2header p{
+    letter-spacing: 0.05em;
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: justify;
+}
+
+.contactdiv {
+    background-color: #7D7780;
+    color: #252526;
+    height: 14.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3em;
+}
+
+.contactdiv1{
+    letter-spacing: 0.3em;
+}
+
+.contactsdescription ul{
+    padding-top: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 3em;
+}
+
+.contactsdescription li {
+    list-style-type: none;
+    padding: 0.1em;
+}
+
+.contactname {
+    font-weight: bold;
+}
+
+.contactsdescription a{
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    color: #252526;
+}
+
+.contactsdescription a:hover{
+    color: #D8CCE0
+}
+
+.footerdesc {
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+
+.footerlist ul {
+    padding-top: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 3em;
+}
+
+.footerlist li {
+    list-style-type: none;
+    padding: 0.1em;
+}
+
+.footerlist li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#252526
+}
+
+.footerlist li a:hover {
+    color: #D8CCE0;
+}
+
